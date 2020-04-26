@@ -1,0 +1,25 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+
+Name=Dark FlexiBee
+Comment=ABRA FlexiBee Economic System
+GenericName=Economic System
+Name[cs]=Temné FlexiBee
+Name[sk]=Ťemné FlexiBee
+Comment[cs]=Účetní a ekonomický systém ABRA FlexiBee 
+Comment[sk]=Účetní a ekonomický systém ABRA FlexiBee
+GenericName[cs]=Účetní a ekonomický systém
+GenericName[sk]=Účetní a ekonomický systém
+
+Exec=/usr/bin/dark-flexibee %f
+Terminal=false
+StartupNotify=true
+MimeType=application/x-flexibee-license;application/x-isdoc;application/x-isdocx;application/x-flexibee-backup;application/x-flexibee-xml;application/x-flexibee-report;application/x-flexibee-query;application/x-flexibee-connection
+Icon=dark-flexibee-client
+Categories=Office;Finance
+X-AppInstall-Package=flexibee
+X-AppInstall-Popcon=2419
+X-AppInstall-Section=multiverse
+
+
