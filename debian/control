@@ -8,7 +8,7 @@ Homepage: https://github.com/VitexSoftware/dark-flexibee-client-deb
 
 Package: dark-flexibee-client
 Architecture: all
-Depends: flexibee-client, breeze-gtk-theme
+Depends: flexibee|flexibee-client, breeze-gtk-theme
 Description: Launch FlexiBee in dark mode
  Use this package if you need optically different FlexiBee application.
  It contains launcher of FlexiBee client with forced dark Breeze theme
