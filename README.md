@@ -1,7 +1,7 @@
 # dark-flexibee-client-deb
 Debian package for Dark skined FlexiBee launcher
 
-![App Logo](https://raw.githubusercontent.com/VitexSoftware/dark-flexibee-client-deb/master/icons/512x512/dark-flexibee-client.png?token=AAT75SS7SB4V442P6ENID2S6UYOZU)
+![App Logo](icons/512x512/dark-flexibee-client.png?raw=true)
 
 How to install ?
 ----------------
@@ -16,3 +16,9 @@ sudo apt install dark-flexibee-client
 
 After installation you can fire the **dark-flexibee** command or choose it from menu.
 
+Screenshots:
+------------
+
+![Login Dialog](login-dialog.png?raw=true)
+![Company select](company-select.png?raw=true)
+![Invoices](invoices.png?raw=true)
