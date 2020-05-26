@@ -1,12 +1,12 @@
-Source: dark-flexibee-client
+Source: flexibee-dark-gui
 Section: office
 Priority: optional
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
 Build-Depends: debhelper ( >> 5.0.0), inkscape
 Standards-Version: 4.3.0
-Homepage: https://github.com/VitexSoftware/dark-flexibee-client-deb
+Homepage: https://github.com/VitexSoftware/flexibee-dark-gui
 
-Package: dark-flexibee-client
+Package: flexibee-dark-gui
 Architecture: all
 Depends: flexibee|flexibee-client, breeze-gtk-theme
 Description: Launch FlexiBee in dark mode
