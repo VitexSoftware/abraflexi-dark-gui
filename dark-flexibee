@@ -1,6 +1,0 @@
-#!/bin/sh
-
-export GTKRCFILE=Breeze-Dark
-export GTK2_RC_FILES=/usr/share/themes/"$GTKRCFILE"/gtk-2.0/gtkrc "$@"
-
-/usr/bin/flexibee $@

@@ -1,17 +1,14 @@
 #!/bin/bash
-SRC="dark-flexibee-client-icon.svg"
-
+SRC="dark-abraflexi-client.svg"
+DST="debian/tmp/"
 resolutions='16 32 48 64 128 255 512'
 
 for resolution in $resolutions
 do
     echo $resolution
-    mkdir -p icons/${resolution}x${resolution}/
-    inkscape -z -w ${resolution} -h ${resolution} $SRC -e icons/${resolution}x${resolution}/dark-flexibee-client.png
+    mkdir -p ${DST}icons/${resolution}x${resolution}/
+    inkscape -z -w ${resolution} -h ${resolution} $SRC -o ${DST}icons/${resolution}x${resolution}/dark-abraflexi-client.png
 done
-mkdir -p icons/scalable
-cp $SRC icons/scalable/dark-flexibee-client.svg 
+mkdir -p ${DST}icons/scalable
+cp $SRC ${DST}icons/scalable/dark-abraflexi-client.svg 
 echo All done
-
-
-
