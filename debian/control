@@ -2,7 +2,8 @@ Source: abraflexi-dark-gui
 Section: office
 Priority: optional
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
-Build-Depends: debhelper ( >> 5.0.0), inkscape
+Build-Depends: debhelper ( >> 5.0.0)
+#,inkscape
 Standards-Version: 4.3.0
 Homepage: https://github.com/VitexSoftware/abraflexi-dark-gui
 
