@@ -1,6 +1,6 @@
 #!/bin/bash
 SRC="dark-abraflexi-client.svg"
-DST="debian/tmp/"
+DST="debian/"
 resolutions='16 32 48 64 128 255 512'
 
 for resolution in $resolutions
