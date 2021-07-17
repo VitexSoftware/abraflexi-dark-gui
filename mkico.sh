@@ -7,7 +7,7 @@ for resolution in $resolutions
 do
     echo $resolution
     mkdir -p ${DST}icons/${resolution}x${resolution}/
-    inkscape -z -w ${resolution} -h ${resolution} $SRC -o ${DST}icons/${resolution}x${resolution}/dark-abraflexi-client.png
+    inkscape  -w ${resolution} -h ${resolution} $SRC -o ${DST}icons/${resolution}x${resolution}/dark-abraflexi-client.png
 done
 mkdir -p ${DST}icons/scalable
 cp $SRC ${DST}icons/scalable/dark-abraflexi-client.svg 
