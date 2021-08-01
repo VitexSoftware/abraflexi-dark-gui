@@ -7,7 +7,7 @@ Build-Depends: debhelper ( >> 5.0.0)
 Standards-Version: 4.3.0
 Homepage: https://github.com/VitexSoftware/abraflexi-dark-gui
 
-Package: flexibee-dark-gui
+Package: abraflexi-dark-gui
 Architecture: all
 Depends: flexibee|flexibee-client|abraflexi-client, breeze-gtk-theme
 Description: Launch AbraFlexi in dark mode
