@@ -1,10 +1,10 @@
 # abraflexi-dark-gui
+
 Debian package for Dark skined AbraFlexi launcher
 
 ![App Logo](dark-abraflexi-client.svg?raw=true)
 
-How to install ?
-----------------
+## How to install ?
 
 ```shell
 sudo apt install lsb-release wget
@@ -16,8 +16,7 @@ sudo apt install abraflexi-dark-gui
 
 After installation you can fire the **dark-abraflexi** command or choose it from menu.
 
-Screenshots:
-------------
+## Screenshots
 
 ![Login Dialog](login-dialog.png?raw=true)
 ![Company select](company-select.png?raw=true)

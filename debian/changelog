@@ -1,11 +1,15 @@
-abraflexi-dark-gui (0.5) UNRELEASED; urgency=medium
+abraflexi-dark-gui (0.5.0) stable; urgency=medium
 
-  * Launcher script switched to Adwaita:dark theme
-  * Debian dependencies updated to use Adwaita theme
-  * README.md updated with current package name and command
-  * Fixed application icon in .desktop file
+  * Major update: Launcher script now enforces Adwaita:dark theme for improved visual experience.
+  * Updated Debian dependencies to ensure compatibility with Adwaita theme and GNOME environments.
+  * README.md revised to reflect current package name and usage instructions.
+  * Application icon in .desktop file fixed for better desktop integration.
+  * Comprehensive icon set generated for all standard resolutions using Inkscape.
+  * Improved package structure for easier installation and maintenance.
+  * Ensured compatibility with FlexiBee/AbraFlexi client and server packages.
+  * Added support for latest Debian standards and best practices.
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 27 Nov 2025 09:30:00 +0000
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 27 Nov 2025 12:05:00 +0000
 
 abraflexi-dark-gui (0.4) UNRELEASED; urgency=medium
 
