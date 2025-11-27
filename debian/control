@@ -9,7 +9,7 @@ Homepage: https://github.com/VitexSoftware/abraflexi-dark-gui
 
 Package: abraflexi-dark-gui
 Architecture: all
-Depends: flexibee|flexibee-client|abraflexi-client, breeze-gtk-theme, openjdk-11-jre
+Depends: flexibee|flexibee-client|abraflexi-client, breeze-gtk-theme, temurin-11-jre | temurin-11-jdk | openjdk-11-jre
 Description: Launch AbraFlexi in dark mode
  Use this package if you need optically different FlexiBee application.
  It contains launcher of FlexiBee client with forced dark Breeze theme
