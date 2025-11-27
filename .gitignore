@@ -1,2 +1,5 @@
 /debian/dark-flexibee-client
 /debian/.debhelper
+/debian/abraflexi-dark-gui/
+/debian/icons/
+

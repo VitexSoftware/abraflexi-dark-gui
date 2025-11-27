@@ -1,3 +1,12 @@
+abraflexi-dark-gui (0.5) UNRELEASED; urgency=medium
+
+  * Launcher script switched to Adwaita:dark theme
+  * Debian dependencies updated to use Adwaita theme
+  * README.md updated with current package name and command
+  * Fixed application icon in .desktop file
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 27 Nov 2025 09:30:00 +0000
+
 abraflexi-dark-gui (0.4) UNRELEASED; urgency=medium
 
   * Use temurin-11-jre | temurin-11-jdk as java11 dependency

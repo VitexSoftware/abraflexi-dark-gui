@@ -1,6 +1,9 @@
 #!/bin/sh
 
-export GTKRCFILE=Breeze-Dark
-export GTK2_RC_FILES=/usr/share/themes/"$GTKRCFILE"/gtk-2.0/gtkrc "$@"
+export GTK_THEME=Adwaita:dark
+export GDK_THEME=Adwaita:dark
+export GTK2_RC_FILES=/usr/share/themes/Adwaita/gtk-2.0/gtkrc
 
-/usr/bin/flexibee $@
+export _JAVA_OPTIONS="-Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel"
+
+/usr/bin/flexibee "$@"
